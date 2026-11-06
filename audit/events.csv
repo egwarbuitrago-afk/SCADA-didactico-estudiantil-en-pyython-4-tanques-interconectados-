@@ -1,0 +1,499 @@
+timestamp,usuario,tipo,detalle
+2026-10-27T18:28:21,invitado,LOGIN,Inicio de sesión: invitado
+2026-10-27T18:31:13,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-27T18:31:35,estudiante,CONTROL,Modo T-101: Manual
+2026-10-27T18:31:37,estudiante,CONTROL,Modo T-101: PID
+2026-10-27T18:31:45,estudiante,CMD,V-101 CERRADA
+2026-10-27T18:31:58,estudiante,CMD,V-101 ABIERTA
+2026-10-27T18:32:11,estudiante,ALARM,Reconocimiento global ACK ALL
+2026-10-27T18:32:14,estudiante,COMMS,Falla de comunicación simulada
+2026-10-27T18:32:14,estudiante,ALARM,COMMS-001: Pérdida de comunicación / calidad de dato no confiable
+2026-10-27T18:32:16,estudiante,COMMS,Comunicación simulada restablecida
+2026-10-27T18:32:17,estudiante,ALARM,COMMS-001: condición retornó a normal
+2026-10-27T18:34:40,estudiante,COMMS,Retorno a simulación
+2026-10-27T18:34:44,estudiante,COMMS,Falla de comunicación simulada
+2026-10-27T18:34:45,estudiante,ALARM,COMMS-001: Pérdida de comunicación / calidad de dato no confiable
+2026-10-27T18:34:46,estudiante,COMMS,Comunicación simulada restablecida
+2026-10-27T18:34:47,estudiante,ALARM,COMMS-001: condición retornó a normal
+2026-10-27T18:35:18,estudiante,SYS,Cierre de sesión
+2026-10-27T18:38:13,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-27T18:42:15,estudiante,SYS,Cierre de sesión
+2026-10-27T18:48:56,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-27T18:49:28,estudiante,CMD,P-101 STOP
+2026-10-27T18:49:29,estudiante,CMD,P-102 STOP
+2026-10-27T18:49:40,estudiante,CMD,V-101 CERRADA
+2026-10-27T18:49:40,estudiante,CMD,V-103 CERRADA
+2026-10-27T18:49:41,estudiante,CMD,V-102 CERRADA
+2026-10-27T18:49:42,estudiante,CMD,V-104 CERRADA
+2026-10-27T18:50:55,estudiante,SETPOINT,T-101 consigna=51.0%
+2026-10-27T18:50:57,estudiante,SETPOINT,T-101 consigna=50.0%
+2026-10-27T18:51:51,estudiante,ALARM,LT102-L: T-102: nivel bajo
+2026-10-27T18:51:58,estudiante,ALARM,LT104-L: T-104: nivel bajo
+2026-10-27T18:52:14,estudiante,ALARM,LT101-L: T-101: nivel bajo
+2026-10-27T18:52:34,estudiante,ALARM,LT103-L: T-103: nivel bajo
+2026-10-27T18:53:01,estudiante,ALARM,Reconocimiento global ACK ALL
+2026-10-27T18:53:07,estudiante,CMD,P-102 RUN
+2026-10-27T18:53:08,estudiante,CMD,P-101 RUN
+2026-10-27T18:53:08,estudiante,CMD,V-101 ABIERTA
+2026-10-27T18:53:09,estudiante,CMD,V-103 ABIERTA
+2026-10-27T18:53:10,estudiante,CMD,V-102 ABIERTA
+2026-10-27T18:53:10,estudiante,ALARM,LT101-L: condición retornó a normal
+2026-10-27T18:53:10,estudiante,CMD,V-104 ABIERTA
+2026-10-27T18:53:12,estudiante,ALARM,LT103-L: condición retornó a normal
+2026-10-27T18:53:13,estudiante,ALARM,LT102-L: condición retornó a normal
+2026-10-27T18:53:16,estudiante,ALARM,LT104-L: condición retornó a normal
+2026-10-27T18:55:24,estudiante,SYS,Cierre de sesión
+2026-10-27T21:13:26,operario,LOGIN,Inicio de sesión: operario
+2026-10-27T21:13:42,operario,SETPOINT,T-101 consigna=49.0%
+2026-10-27T21:13:42,operario,SETPOINT,T-101 consigna=48.0%
+2026-10-27T21:14:17,operario,COMMS,Falla de comunicación simulada
+2026-10-27T21:14:18,operario,ALARM,COMMS-001: Pérdida de comunicación / calidad de dato no confiable
+2026-10-27T21:14:19,operario,COMMS,Comunicación simulada restablecida
+2026-10-27T21:14:20,operario,ALARM,COMMS-001: condición retornó a normal
+2026-10-27T21:14:27,operario,SYS,Cierre de sesión
+2026-10-28T17:11:04,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-28T17:11:04,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-28T17:12:00,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-10-28T17:12:00,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-10-28T17:12:08,estudiante,ROLE_CHANGE,Cambio de perfil: operario -> estudiante
+2026-10-28T17:12:08,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-28T17:12:31,estudiante,SETPOINT,T-101 consigna=49.0%
+2026-10-28T17:12:32,estudiante,SETPOINT,T-101 consigna=48.0%
+2026-10-28T17:12:32,estudiante,SETPOINT,T-101 consigna=47.0%
+2026-10-28T17:12:32,estudiante,SETPOINT,T-101 consigna=46.0%
+2026-10-28T17:12:32,estudiante,SETPOINT,T-101 consigna=45.0%
+2026-10-28T17:12:33,estudiante,SETPOINT,T-101 consigna=44.0%
+2026-10-28T17:12:33,estudiante,SETPOINT,T-101 consigna=43.0%
+2026-10-28T17:12:33,estudiante,SETPOINT,T-101 consigna=42.0%
+2026-10-28T17:12:34,estudiante,SETPOINT,T-101 consigna=41.0%
+2026-10-28T17:12:34,estudiante,SETPOINT,T-101 consigna=40.0%
+2026-10-28T17:12:55,estudiante,PID,T-101 Ki=0.0250
+2026-10-28T17:12:55,estudiante,PID,T-101 Ki=0.0150
+2026-10-28T17:12:56,estudiante,PID,T-101 Ki=0.0050
+2026-10-28T17:12:56,estudiante,PID,T-101 Ki=0.0000
+2026-10-28T17:12:57,estudiante,PID,T-101 Ki=0.0100
+2026-10-28T17:15:34,estudiante,COMMS,Falla de comunicación simulada
+2026-10-28T17:15:34,estudiante,ALARM,COMMS-001: Pérdida de comunicación / calidad de dato no confiable
+2026-10-28T17:15:49,estudiante,COMMS,Comunicación simulada restablecida
+2026-10-28T17:15:49,estudiante,ALARM,COMMS-001: condición retornó a normal
+2026-10-28T17:16:02,estudiante,CONTROL,Modo T-101: ON/OFF
+2026-10-28T17:16:04,estudiante,CMD,V-101 CERRADA
+2026-10-28T17:16:10,estudiante,CMD,V-101 ABIERTA
+2026-10-28T17:16:14,estudiante,CMD,V-103 CERRADA
+2026-10-28T17:16:15,estudiante,CMD,V-104 CERRADA
+2026-10-28T17:16:16,estudiante,CMD,V-102 CERRADA
+2026-10-28T17:16:18,estudiante,CMD,P-102 STOP
+2026-10-28T17:16:52,invitado,ROLE_CHANGE,Cambio de perfil: estudiante -> invitado
+2026-10-28T17:16:52,invitado,PERMISSIONS,Permisos aplicados al perfil invitado; solo_lectura=True
+2026-10-28T17:17:13,estudiante,ROLE_CHANGE,Cambio de perfil: invitado -> estudiante
+2026-10-28T17:17:13,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-28T17:17:19,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-10-28T17:17:19,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-10-28T17:17:25,estudiante,ROLE_CHANGE,Cambio de perfil: operario -> estudiante
+2026-10-28T17:17:25,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-28T17:18:45,estudiante,ALARM,LT102-L: T-102: nivel bajo
+2026-10-28T17:18:53,estudiante,ALARM,LT104-L: T-104: nivel bajo
+2026-10-28T17:18:57,estudiante,ALARM,Reconocimiento global ACK ALL
+2026-10-28T17:19:01,estudiante,CMD,P-102 RUN
+2026-10-28T17:19:02,estudiante,CMD,V-103 ABIERTA
+2026-10-28T17:19:03,estudiante,CMD,V-104 ABIERTA
+2026-10-28T17:19:03,estudiante,CMD,V-102 ABIERTA
+2026-10-28T17:19:04,estudiante,ALARM,LT102-L: condición retornó a normal
+2026-10-28T17:19:04,estudiante,ALARM,LT104-L: condición retornó a normal
+2026-10-28T17:19:21,estudiante,COMMS,Modo SIM activado
+2026-10-28T17:27:00,estudiante,CONTROL,Modo T-101: PID
+2026-10-28T17:29:21,estudiante,SYS,Cierre de sesión
+2026-10-28T18:16:17,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-28T18:16:17,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-28T18:16:37,estudiante,CMD,V-101 CERRADA
+2026-10-28T18:16:47,estudiante,CMD,V-101 ABIERTA
+2026-10-28T18:17:33,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-10-28T18:17:33,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-10-28T18:18:02,operario,SYS,Cierre de sesión
+2026-10-28T19:04:18,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-28T19:04:19,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-28T19:04:36,estudiante,CMD,P-101 STOP
+2026-10-28T19:04:36,estudiante,CMD,P-102 STOP
+2026-10-28T19:04:55,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-10-28T19:04:55,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-10-28T19:06:58,operario,ALARM,LT102-L: T-102: nivel bajo
+2026-10-28T19:07:04,operario,ALARM,LT104-L: T-104: nivel bajo
+2026-10-28T19:07:23,operario,ALARM,LT101-L: T-101: nivel bajo
+2026-10-28T19:07:41,operario,ALARM,LT103-L: T-103: nivel bajo
+2026-10-28T19:08:25,operario,ALARM,LT102-LL: T-102: nivel muy bajo
+2026-10-28T19:08:25,operario,ALARM,LT102-L: condición retornó a normal
+2026-10-28T19:08:51,operario,ALARM,LT101-LL: T-101: nivel muy bajo
+2026-10-28T19:08:51,operario,ALARM,LT101-L: condición retornó a normal
+2026-10-28T19:09:00,operario,ALARM,LT104-LL: T-104: nivel muy bajo
+2026-10-28T19:09:00,operario,ALARM,LT104-L: condición retornó a normal
+2026-10-28T19:09:32,operario,ALARM,LT103-LL: T-103: nivel muy bajo
+2026-10-28T19:09:32,operario,ALARM,LT103-L: condición retornó a normal
+2026-10-28T19:13:58,operario,CMD,P-102 RUN
+2026-10-28T19:13:59,operario,CMD,P-101 RUN
+2026-10-28T19:14:03,operario,ALARM,LT102-L: T-102: nivel bajo
+2026-10-28T19:14:03,operario,ALARM,LT102-LL: condición retornó a normal
+2026-10-28T19:14:04,operario,ALARM,LT101-L: T-101: nivel bajo
+2026-10-28T19:14:04,operario,ALARM,LT101-LL: condición retornó a normal
+2026-10-28T19:14:05,operario,ALARM,LT103-L: T-103: nivel bajo
+2026-10-28T19:14:05,operario,ALARM,LT103-LL: condición retornó a normal
+2026-10-28T19:14:07,operario,ALARM,LT104-L: T-104: nivel bajo
+2026-10-28T19:14:07,operario,ALARM,LT104-LL: condición retornó a normal
+2026-10-28T19:14:08,operario,ALARM,LT102-L: condición retornó a normal
+2026-10-28T19:14:08,operario,ALARM,LT101-L: condición retornó a normal
+2026-10-28T19:14:12,operario,ALARM,LT103-L: condición retornó a normal
+2026-10-28T19:14:14,operario,ALARM,LT104-L: condición retornó a normal
+2026-10-28T20:12:47,estudiante,ROLE_CHANGE,Cambio de perfil: operario -> estudiante
+2026-10-28T20:12:47,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-28T20:12:50,invitado,ROLE_CHANGE,Cambio de perfil: estudiante -> invitado
+2026-10-28T20:12:50,invitado,PERMISSIONS,Permisos aplicados al perfil invitado; solo_lectura=True
+2026-10-30T13:42:48,operario,LOGIN,Inicio de sesión: operario
+2026-10-30T13:42:49,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-10-30T13:43:35,operario,CMD,P-101 STOP
+2026-10-30T13:43:39,operario,CMD,P-101 RUN
+2026-10-30T13:47:23,estudiante,ROLE_CHANGE,Cambio de perfil: operario -> estudiante
+2026-10-30T13:47:23,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-30T14:00:01,estudiante,SETPOINT,T-101 consigna=49.0%
+2026-10-30T14:00:02,estudiante,SETPOINT,T-101 consigna=50.0%
+2026-10-30T14:00:02,estudiante,SETPOINT,T-101 consigna=51.0%
+2026-10-30T14:00:03,estudiante,SETPOINT,T-101 consigna=52.0%
+2026-10-30T14:00:07,estudiante,SETPOINT,T-101 consigna=53.0%
+2026-10-30T14:00:19,estudiante,SETPOINT,T-104 consigna=36.0%
+2026-10-30T14:00:20,estudiante,SETPOINT,T-104 consigna=37.0%
+2026-10-30T14:00:20,estudiante,SETPOINT,T-104 consigna=38.0%
+2026-10-30T14:00:20,estudiante,SETPOINT,T-104 consigna=39.0%
+2026-10-30T14:00:21,estudiante,SETPOINT,T-104 consigna=40.0%
+2026-10-30T14:00:56,estudiante,CMD,V-101 CERRADA
+2026-10-30T14:00:59,estudiante,CMD,V-101 ABIERTA
+2026-10-30T14:01:49,estudiante,SYS,Cierre de sesión
+2026-10-30T22:49:55,operario,LOGIN,Inicio de sesión: operario
+2026-10-30T22:49:55,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-10-30T22:50:09,operario,SYS,Cierre de sesión
+2026-10-30T22:51:10,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-30T22:51:11,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-30T22:52:48,estudiante,E_STOP,Parada de emergencia software activada en modo SIM; remoto_ok=True
+2026-10-30T22:52:48,estudiante,ALARM,ESD-001: Parada de emergencia por software enclavada; verificar paro físico/controlador
+2026-10-30T22:52:58,estudiante,E_STOP_RESET,Rearme del enclavamiento software; actuadores permanecen STOP/cerrados
+2026-10-30T22:52:58,estudiante,ALARM,ESD-001: condición retornó a normal
+2026-10-30T22:54:16,estudiante,CMD,V-101 ABIERTA
+2026-10-30T22:54:23,estudiante,CMD,V-103 ABIERTA
+2026-10-30T22:54:24,estudiante,CMD,V-102 ABIERTA
+2026-10-30T22:54:26,estudiante,CMD,P-102 RUN
+2026-10-30T22:54:26,estudiante,CMD,P-101 RUN
+2026-10-30T22:54:31,estudiante,CMD,V-104 ABIERTA
+2026-10-30T22:54:48,estudiante,CMD,P-101 STOP
+2026-10-30T22:54:48,estudiante,CMD,P-102 STOP
+2026-10-30T22:55:13,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-10-30T22:55:13,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-10-30T22:56:02,operario,ALARM,LT104-L: T-104: nivel bajo
+2026-10-30T22:56:09,operario,ALARM,LT105-H: TK-105: nivel alto
+2026-10-30T22:56:38,operario,ALARM,LT103-L: T-103: nivel bajo
+2026-10-30T22:57:25,operario,ALARM,LT105-HH: TK-105: nivel muy alto
+2026-10-30T22:57:25,operario,ALARM,LT105-H: condición retornó a normal
+2026-10-30T22:57:30,operario,ALARM,LT104-LL: T-104: nivel muy bajo
+2026-10-30T22:57:30,operario,ALARM,LT104-L: condición retornó a normal
+2026-10-30T22:57:34,operario,ALARM,LT102-L: T-102: nivel bajo
+2026-10-30T22:58:05,operario,ALARM,LT101-L: T-101: nivel bajo
+2026-10-30T22:58:06,operario,ALARM,LT103-LL: T-103: nivel muy bajo
+2026-10-30T22:58:06,operario,ALARM,LT103-L: condición retornó a normal
+2026-10-30T22:58:59,operario,ALARM,LT102-LL: T-102: nivel muy bajo
+2026-10-30T22:58:59,operario,ALARM,LT102-L: condición retornó a normal
+2026-10-30T22:59:31,operario,ALARM,LT101-LL: T-101: nivel muy bajo
+2026-10-30T22:59:31,operario,ALARM,LT101-L: condición retornó a normal
+2026-10-30T23:00:16,estudiante,ROLE_CHANGE,Cambio de perfil: operario -> estudiante
+2026-10-30T23:00:16,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-30T23:00:38,estudiante,CMD,P-101 RUN
+2026-10-30T23:00:39,estudiante,CMD,P-102 RUN
+2026-10-30T23:00:41,estudiante,ALARM,LT101-L: T-101: nivel bajo
+2026-10-30T23:00:41,estudiante,ALARM,LT101-LL: condición retornó a normal
+2026-10-30T23:00:43,estudiante,ALARM,LT102-L: T-102: nivel bajo
+2026-10-30T23:00:43,estudiante,ALARM,LT102-LL: condición retornó a normal
+2026-10-30T23:00:45,estudiante,ALARM,LT105-H: TK-105: nivel alto
+2026-10-30T23:00:45,estudiante,ALARM,LT105-HH: condición retornó a normal
+2026-10-30T23:00:46,estudiante,ALARM,LT103-L: T-103: nivel bajo
+2026-10-30T23:00:46,estudiante,ALARM,LT104-L: T-104: nivel bajo
+2026-10-30T23:00:46,estudiante,ALARM,LT104-LL: condición retornó a normal
+2026-10-30T23:00:46,estudiante,ALARM,LT103-LL: condición retornó a normal
+2026-10-30T23:00:46,estudiante,ALARM,LT101-L: condición retornó a normal
+2026-10-30T23:00:48,estudiante,ALARM,LT102-L: condición retornó a normal
+2026-10-30T23:00:50,estudiante,ALARM,LT105-H: condición retornó a normal
+2026-10-30T23:00:53,estudiante,ALARM,LT103-L: condición retornó a normal
+2026-10-30T23:00:53,estudiante,ALARM,LT104-L: condición retornó a normal
+2026-10-30T23:01:45,estudiante,SYS,Cierre de sesión
+2026-10-31T08:24:20,operario,LOGIN,Inicio de sesión: operario
+2026-10-31T08:24:23,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-10-31T08:25:11,estudiante,ROLE_CHANGE,Cambio de perfil: operario -> estudiante
+2026-10-31T08:25:11,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T08:26:24,estudiante,E_STOP,Parada de emergencia software activada en modo SIM; remoto_ok=True
+2026-10-31T08:26:24,estudiante,ALARM,ESD-001: Parada de emergencia por software enclavada; verificar paro físico/controlador
+2026-10-31T08:26:27,estudiante,E_STOP_RESET,Rearme del enclavamiento software; actuadores permanecen STOP/cerrados
+2026-10-31T08:26:27,estudiante,ALARM,ESD-001: condición retornó a normal
+2026-10-31T08:26:28,estudiante,CMD,P-101 RUN
+2026-10-31T08:26:29,estudiante,CMD,P-102 RUN
+2026-10-31T08:26:30,estudiante,CMD,V-103 ABIERTA
+2026-10-31T08:26:31,estudiante,CMD,V-101 ABIERTA
+2026-10-31T08:26:32,estudiante,CMD,V-102 ABIERTA
+2026-10-31T08:26:32,estudiante,CMD,V-104 ABIERTA
+2026-10-31T08:26:39,estudiante,CMD,P-101 STOP
+2026-10-31T08:28:06,estudiante,ALARM,LT104-L: T-104: nivel bajo
+2026-10-31T08:28:45,estudiante,CMD,P-101 RUN
+2026-10-31T08:28:49,estudiante,ALARM,LT104-L: condición retornó a normal
+2026-10-31T08:29:37,estudiante,CMD,P-101 STOP
+2026-10-31T08:29:38,estudiante,CMD,P-102 STOP
+2026-10-31T08:31:11,estudiante,ALARM,LT105-H: TK-105: nivel alto
+2026-10-31T08:31:12,estudiante,ALARM,LT104-L: T-104: nivel bajo
+2026-10-31T08:31:40,estudiante,ALARM,LT103-L: T-103: nivel bajo
+2026-10-31T08:32:26,estudiante,ALARM,LT105-HH: TK-105: nivel muy alto
+2026-10-31T08:32:26,estudiante,ALARM,LT105-H: condición retornó a normal
+2026-10-31T08:32:32,estudiante,ALARM,LT102-L: T-102: nivel bajo
+2026-10-31T08:32:39,estudiante,ALARM,LT104-LL: T-104: nivel muy bajo
+2026-10-31T08:32:39,estudiante,ALARM,LT104-L: condición retornó a normal
+2026-10-31T08:33:03,estudiante,ALARM,LT101-L: T-101: nivel bajo
+2026-10-31T08:33:08,estudiante,ALARM,LT103-LL: T-103: nivel muy bajo
+2026-10-31T08:33:08,estudiante,ALARM,LT103-L: condición retornó a normal
+2026-10-31T08:34:01,estudiante,ALARM,LT102-LL: T-102: nivel muy bajo
+2026-10-31T08:34:01,estudiante,ALARM,LT102-L: condición retornó a normal
+2026-10-31T08:34:31,estudiante,ALARM,LT101-LL: T-101: nivel muy bajo
+2026-10-31T08:34:31,estudiante,ALARM,LT101-L: condición retornó a normal
+2026-10-31T08:35:39,estudiante,CMD,P-101 RUN
+2026-10-31T08:35:40,estudiante,CMD,P-102 RUN
+2026-10-31T08:35:42,estudiante,ALARM,LT101-L: T-101: nivel bajo
+2026-10-31T08:35:42,estudiante,ALARM,LT101-LL: condición retornó a normal
+2026-10-31T08:35:44,estudiante,ALARM,LT102-L: T-102: nivel bajo
+2026-10-31T08:35:44,estudiante,ALARM,LT102-LL: condición retornó a normal
+2026-10-31T08:35:46,estudiante,ALARM,LT105-H: TK-105: nivel alto
+2026-10-31T08:35:46,estudiante,ALARM,LT105-HH: condición retornó a normal
+2026-10-31T08:35:47,estudiante,ALARM,LT103-L: T-103: nivel bajo
+2026-10-31T08:35:47,estudiante,ALARM,LT104-L: T-104: nivel bajo
+2026-10-31T08:35:47,estudiante,ALARM,LT104-LL: condición retornó a normal
+2026-10-31T08:35:47,estudiante,ALARM,LT103-LL: condición retornó a normal
+2026-10-31T08:35:47,estudiante,ALARM,LT101-L: condición retornó a normal
+2026-10-31T08:35:49,estudiante,ALARM,LT102-L: condición retornó a normal
+2026-10-31T08:35:51,estudiante,ALARM,LT105-H: condición retornó a normal
+2026-10-31T08:35:54,estudiante,ALARM,LT103-L: condición retornó a normal
+2026-10-31T08:35:54,estudiante,ALARM,LT104-L: condición retornó a normal
+2026-10-31T08:39:09,estudiante,COMMS,Falla de comunicación simulada
+2026-10-31T08:39:10,estudiante,ALARM,COMMS-001: Pérdida de comunicación / calidad de dato no confiable
+2026-10-31T08:39:33,estudiante,COMMS,Comunicación simulada restablecida
+2026-10-31T08:39:33,estudiante,ALARM,COMMS-001: condición retornó a normal
+2026-10-31T09:10:54,estudiante,SYS,Cierre de sesión
+2026-10-31T09:16:48,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-31T09:16:49,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T09:17:34,estudiante,SYS,Cierre de sesión
+2026-10-31T09:17:52,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-31T09:17:54,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T09:21:52,estudiante,SYS,Cierre de sesión
+2026-10-31T09:22:09,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-31T09:22:10,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T09:24:04,estudiante,SYS,Cierre de sesión
+2026-10-31T09:24:14,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-31T09:24:15,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T09:25:10,estudiante,SYS,Cierre de sesión
+2026-10-31T09:25:16,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-31T09:25:17,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T09:25:42,estudiante,SYS,Cierre de sesión
+2026-10-31T09:26:02,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-31T09:26:03,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T09:29:25,estudiante,SYS,Cierre de sesión
+2026-10-31T09:29:40,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-31T09:29:40,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T09:30:30,estudiante,SYS,Cierre de sesión
+2026-10-31T09:32:52,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-31T09:32:53,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T09:35:37,estudiante,SYS,Cierre de sesión
+2026-10-31T09:35:49,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-31T09:35:50,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T09:37:20,estudiante,PID,T-101 Kp=30.0000
+2026-10-31T09:37:33,estudiante,PID,T-101 Ki=0.1000
+2026-10-31T09:37:41,estudiante,PID,T-101 Kd=0.0000
+2026-10-31T09:37:57,estudiante,CMD,P-101 STOP
+2026-10-31T09:38:25,estudiante,CMD,P-101 RUN
+2026-10-31T09:40:35,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-10-31T09:40:35,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-10-31T09:40:42,operario,E_STOP,Parada de emergencia software activada en modo SIM; remoto_ok=True
+2026-10-31T09:40:42,operario,ALARM,ESD-001: Parada de emergencia por software enclavada; verificar paro físico/controlador
+2026-10-31T09:40:49,operario,E_STOP_RESET,Rearme del enclavamiento software; actuadores permanecen STOP/cerrados
+2026-10-31T09:40:49,operario,ALARM,ESD-001: condición retornó a normal
+2026-10-31T09:41:46,operario,CMD,P-102 RUN
+2026-10-31T09:41:47,operario,CMD,P-102 STOP
+2026-10-31T09:42:21,operario,ALARM,LT105-H: TK-105: nivel alto
+2026-10-31T09:42:23,operario,ALARM,LT104-L: T-104: nivel bajo
+2026-10-31T09:42:51,operario,ALARM,LT103-L: T-103: nivel bajo
+2026-10-31T09:43:37,operario,ALARM,LT105-HH: TK-105: nivel muy alto
+2026-10-31T09:43:37,operario,ALARM,LT105-H: condición retornó a normal
+2026-10-31T09:43:44,operario,ALARM,LT102-L: T-102: nivel bajo
+2026-10-31T09:43:51,operario,ALARM,LT104-LL: T-104: nivel muy bajo
+2026-10-31T09:43:51,operario,ALARM,LT104-L: condición retornó a normal
+2026-10-31T09:44:13,operario,ALARM,LT101-L: T-101: nivel bajo
+2026-10-31T09:44:18,operario,ALARM,LT103-LL: T-103: nivel muy bajo
+2026-10-31T09:44:18,operario,ALARM,LT103-L: condición retornó a normal
+2026-10-31T09:45:12,operario,ALARM,LT102-LL: T-102: nivel muy bajo
+2026-10-31T09:45:12,operario,ALARM,LT102-L: condición retornó a normal
+2026-10-31T09:45:41,operario,ALARM,LT101-LL: T-101: nivel muy bajo
+2026-10-31T09:45:41,operario,ALARM,LT101-L: condición retornó a normal
+2026-10-31T09:55:53,operario,CMD,P-101 RUN
+2026-10-31T09:55:53,operario,CMD,P-102 RUN
+2026-10-31T09:56:03,operario,CMD,V-101 ABIERTA
+2026-10-31T09:56:04,operario,CMD,V-103 ABIERTA
+2026-10-31T09:56:05,operario,CMD,V-104 ABIERTA
+2026-10-31T09:56:05,operario,ALARM,LT101-L: T-101: nivel bajo
+2026-10-31T09:56:05,operario,ALARM,LT101-LL: condición retornó a normal
+2026-10-31T09:56:07,operario,CMD,V-102 ABIERTA
+2026-10-31T09:56:09,operario,ALARM,LT103-L: T-103: nivel bajo
+2026-10-31T09:56:09,operario,ALARM,LT103-LL: condición retornó a normal
+2026-10-31T09:56:10,operario,ALARM,LT105-H: TK-105: nivel alto
+2026-10-31T09:56:10,operario,ALARM,LT105-HH: condición retornó a normal
+2026-10-31T09:56:11,operario,ALARM,LT101-L: condición retornó a normal
+2026-10-31T09:56:12,operario,ALARM,LT102-L: T-102: nivel bajo
+2026-10-31T09:56:12,operario,ALARM,LT102-LL: condición retornó a normal
+2026-10-31T09:56:13,operario,ALARM,LT104-L: T-104: nivel bajo
+2026-10-31T09:56:13,operario,ALARM,LT104-LL: condición retornó a normal
+2026-10-31T09:56:15,operario,ALARM,LT105-H: condición retornó a normal
+2026-10-31T09:56:16,operario,ALARM,LT102-L: condición retornó a normal
+2026-10-31T09:56:17,operario,ALARM,LT103-L: condición retornó a normal
+2026-10-31T09:56:23,operario,ALARM,LT104-L: condición retornó a normal
+2026-10-31T10:07:51,estudiante,ROLE_CHANGE,Cambio de perfil: operario -> estudiante
+2026-10-31T10:07:51,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T21:32:15,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-10-31T21:32:16,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-10-31T21:32:28,estudiante,NAVIGATION,Apertura de HMI T-103
+2026-10-31T21:32:40,estudiante,NAVIGATION,Apertura de HMI TK-105
+2026-10-31T21:32:49,estudiante,NAVIGATION,Apertura de HMI T-104
+2026-10-31T21:32:53,estudiante,NAVIGATION,Apertura de HMI TK-105
+2026-10-31T21:32:59,estudiante,NAVIGATION,Apertura de HMI T-104
+2026-10-31T21:33:06,estudiante,NAVIGATION,Apertura de HMI T-102
+2026-10-31T21:33:08,estudiante,NAVIGATION,Apertura de HMI T-103
+2026-10-31T21:33:08,estudiante,NAVIGATION,Apertura de HMI T-104
+2026-10-31T21:33:21,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-10-31T21:33:21,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-10-31T21:33:26,operario,NAVIGATION,Apertura de HMI T-103
+2026-10-31T21:33:35,operario,NAVIGATION,Apertura de HMI T-101
+2026-10-31T21:35:40,operario,NAVIGATION,Apertura de HMI T-104
+2026-10-31T21:35:59,operario,SYS,Cierre de sesión
+2026-11-02T09:33:31,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-11-02T09:33:34,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-11-02T09:37:04,estudiante,SYS,Cierre de sesión
+2026-11-02T09:37:17,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-11-02T09:37:18,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-11-02T09:38:46,estudiante,NAVIGATION,Apertura de HMI TK-105
+2026-11-02T09:39:08,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-11-02T09:39:08,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-11-02T09:39:14,invitado,ROLE_CHANGE,Cambio de perfil: operario -> invitado
+2026-11-02T09:39:14,invitado,PERMISSIONS,Permisos aplicados al perfil invitado; solo_lectura=True
+2026-11-02T09:39:16,invitado,NAVIGATION,Apertura de HMI T-103
+2026-11-02T09:39:24,estudiante,ROLE_CHANGE,Cambio de perfil: invitado -> estudiante
+2026-11-02T09:39:24,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-11-02T09:39:32,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-11-02T09:39:33,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-11-02T09:41:24,operario,SYS,Cierre de sesión
+2026-11-05T15:20:09,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-11-05T15:20:10,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-11-05T15:24:44,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-11-05T15:24:44,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-11-05T15:24:48,estudiante,ROLE_CHANGE,Cambio de perfil: operario -> estudiante
+2026-11-05T15:24:48,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-11-05T15:24:54,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-11-05T15:24:54,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-11-05T15:24:57,invitado,ROLE_CHANGE,Cambio de perfil: operario -> invitado
+2026-11-05T15:24:57,invitado,PERMISSIONS,Permisos aplicados al perfil invitado; solo_lectura=True
+2026-11-05T15:25:03,estudiante,ROLE_CHANGE,Cambio de perfil: invitado -> estudiante
+2026-11-05T15:25:03,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-11-05T16:15:30,estudiante,NAVIGATION,Apertura de HMI T-101
+2026-11-05T16:15:31,estudiante,NAVIGATION,Apertura de HMI T-102
+2026-11-05T16:15:31,estudiante,NAVIGATION,Apertura de HMI T-103
+2026-11-05T16:15:32,estudiante,NAVIGATION,Apertura de HMI T-104
+2026-11-05T16:15:33,estudiante,NAVIGATION,Apertura de HMI TK-105
+2026-11-05T16:15:45,estudiante,NAVIGATION,Apertura de HMI T-101
+2026-11-05T16:15:50,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-11-05T16:15:50,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-11-05T16:15:52,estudiante,ROLE_CHANGE,Cambio de perfil: operario -> estudiante
+2026-11-05T16:15:52,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-11-05T17:01:46,estudiante,SETPOINT,T-101 consigna=49.0%
+2026-11-05T17:01:50,estudiante,CONTROL,Modo T-101: ON/OFF
+2026-11-05T17:01:53,estudiante,CMD,V-101 CERRADA
+2026-11-05T17:02:09,estudiante,CMD,P-101 STOP
+2026-11-05T17:02:09,estudiante,CMD,P-102 STOP
+2026-11-05T17:02:12,estudiante,CMD,P-101 RUN
+2026-11-05T17:04:11,estudiante,ALARM,LT103-L: T-103: nivel bajo
+2026-11-05T17:04:17,estudiante,ALARM,LT105-H: TK-105: nivel alto
+2026-11-05T17:05:20,estudiante,ALARM,LT101-L: T-101: nivel bajo
+2026-11-05T17:05:38,estudiante,ALARM,LT103-LL: T-103: nivel muy bajo
+2026-11-05T17:05:38,estudiante,ALARM,LT103-L: condición retornó a normal
+2026-11-05T17:06:25,estudiante,NAVIGATION,Apertura de HMI T-101
+2026-11-05T17:06:28,estudiante,CMD,V-101 ABIERTA
+2026-11-05T17:06:30,estudiante,ALARM,LT101-L: condición retornó a normal
+2026-11-05T17:06:31,estudiante,ALARM,LT102-L: T-102: nivel bajo
+2026-11-05T17:06:34,estudiante,NAVIGATION,Apertura de HMI T-102
+2026-11-05T17:06:36,estudiante,CMD,P-102 RUN
+2026-11-05T17:06:37,estudiante,ALARM,LT105-H: condición retornó a normal
+2026-11-05T17:06:37,estudiante,ALARM,LT102-L: condición retornó a normal
+2026-11-05T17:06:39,estudiante,ALARM,LT103-L: T-103: nivel bajo
+2026-11-05T17:06:39,estudiante,ALARM,LT103-LL: condición retornó a normal
+2026-11-05T17:06:45,estudiante,ALARM,LT103-L: condición retornó a normal
+2026-11-05T17:11:48,estudiante,NAVIGATION,Apertura de HMI T-101
+2026-11-05T17:11:49,estudiante,NAVIGATION,Apertura de HMI T-102
+2026-11-05T17:15:18,estudiante,COMMS,Falla de comunicación simulada
+2026-11-05T17:15:18,estudiante,ALARM,COMMS-001: Pérdida de comunicación / calidad de dato no confiable
+2026-11-05T17:15:20,estudiante,COMMS,Comunicación simulada restablecida
+2026-11-05T17:15:20,estudiante,ALARM,COMMS-001: condición retornó a normal
+2026-11-05T17:15:21,estudiante,ALARM,Reconocimiento global ACK ALL
+2026-11-05T17:15:27,estudiante,ALARM,Reconocimiento global ACK ALL
+2026-11-05T17:15:30,estudiante,E_STOP,Parada de emergencia software activada en modo SIM; remoto_ok=True
+2026-11-05T17:15:30,estudiante,ALARM,ESD-001: Parada de emergencia por software enclavada; verificar paro físico/controlador
+2026-11-05T17:15:36,estudiante,E_STOP_RESET,Rearme del enclavamiento software; actuadores permanecen STOP/cerrados
+2026-11-05T17:15:36,estudiante,ALARM,ESD-001: condición retornó a normal
+2026-11-05T17:15:37,estudiante,CMD,P-101 RUN
+2026-11-05T17:15:37,estudiante,CMD,P-102 RUN
+2026-11-05T17:15:39,estudiante,CMD,V-101 ABIERTA
+2026-11-05T17:15:39,estudiante,CMD,V-103 ABIERTA
+2026-11-05T17:15:39,estudiante,CMD,V-102 ABIERTA
+2026-11-05T17:15:40,estudiante,CMD,V-104 ABIERTA
+2026-11-05T17:15:48,operario,ROLE_CHANGE,Cambio de perfil: estudiante -> operario
+2026-11-05T17:15:48,operario,PERMISSIONS,Permisos aplicados al perfil operario; solo_lectura=False
+2026-11-05T17:15:52,operario,SYS,Cierre de sesión
+2026-11-05T18:35:52,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-11-05T18:35:54,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-11-05T19:09:55,estudiante,SYS,Cierre de sesión
+2026-11-06T10:40:09,estudiante,LOGIN,Inicio de sesión: estudiante
+2026-11-06T10:40:11,estudiante,PERMISSIONS,Permisos aplicados al perfil estudiante; solo_lectura=False
+2026-11-06T10:40:23,estudiante,E_STOP,Parada de emergencia software activada en modo SIM; remoto_ok=True
+2026-11-06T10:40:23,estudiante,ALARM,ESD-001: Parada de emergencia por software enclavada; verificar paro físico/controlador
+2026-11-06T10:40:28,estudiante,E_STOP_RESET,Rearme del enclavamiento software; actuadores permanecen STOP/cerrados
+2026-11-06T10:40:28,estudiante,ALARM,ESD-001: condición retornó a normal
+2026-11-06T10:41:54,estudiante,ALARM,LT104-L: T-104: nivel bajo
+2026-11-06T10:41:54,estudiante,ALARM,LT105-H: TK-105: nivel alto
+2026-11-06T10:42:23,estudiante,ALARM,LT103-L: T-103: nivel bajo
+2026-11-06T10:43:11,estudiante,ALARM,LT105-HH: TK-105: nivel muy alto
+2026-11-06T10:43:11,estudiante,ALARM,LT105-H: condición retornó a normal
+2026-11-06T10:43:18,estudiante,ALARM,LT102-L: T-102: nivel bajo
+2026-11-06T10:43:23,estudiante,ALARM,LT104-LL: T-104: nivel muy bajo
+2026-11-06T10:43:23,estudiante,ALARM,LT104-L: condición retornó a normal
+2026-11-06T10:43:49,estudiante,ALARM,LT101-L: T-101: nivel bajo
+2026-11-06T10:43:51,estudiante,ALARM,LT103-LL: T-103: nivel muy bajo
+2026-11-06T10:43:51,estudiante,ALARM,LT103-L: condición retornó a normal
+2026-11-06T10:44:45,estudiante,ALARM,LT102-LL: T-102: nivel muy bajo
+2026-11-06T10:44:45,estudiante,ALARM,LT102-L: condición retornó a normal
+2026-11-06T10:45:17,estudiante,ALARM,LT101-LL: T-101: nivel muy bajo
+2026-11-06T10:45:17,estudiante,ALARM,LT101-L: condición retornó a normal
+2026-11-06T11:36:11,estudiante,ALARM,Reconocimiento global ACK ALL
+2026-11-06T11:36:25,estudiante,CMD,P-101 RUN
+2026-11-06T11:36:25,estudiante,CMD,P-102 RUN
+2026-11-06T11:36:26,estudiante,CMD,V-101 ABIERTA
+2026-11-06T11:36:26,estudiante,CMD,V-103 ABIERTA
+2026-11-06T11:36:27,estudiante,CMD,V-104 ABIERTA
+2026-11-06T11:36:28,estudiante,CMD,V-102 ABIERTA
+2026-11-06T11:36:29,estudiante,ALARM,LT101-L: T-101: nivel bajo
+2026-11-06T11:36:29,estudiante,ALARM,LT101-LL: condición retornó a normal
+2026-11-06T11:36:32,estudiante,ALARM,LT102-L: T-102: nivel bajo
+2026-11-06T11:36:32,estudiante,ALARM,LT105-H: TK-105: nivel alto
+2026-11-06T11:36:32,estudiante,ALARM,LT105-HH: condición retornó a normal
+2026-11-06T11:36:32,estudiante,ALARM,LT102-LL: condición retornó a normal
+2026-11-06T11:36:33,estudiante,ALARM,LT103-L: T-103: nivel bajo
+2026-11-06T11:36:33,estudiante,ALARM,LT103-LL: condición retornó a normal
+2026-11-06T11:36:33,estudiante,ALARM,LT101-L: condición retornó a normal
+2026-11-06T11:36:34,estudiante,ALARM,LT104-L: T-104: nivel bajo
+2026-11-06T11:36:34,estudiante,ALARM,LT104-LL: condición retornó a normal
+2026-11-06T11:36:37,estudiante,ALARM,LT102-L: condición retornó a normal
+2026-11-06T11:36:37,estudiante,ALARM,LT105-H: condición retornó a normal
+2026-11-06T11:36:40,estudiante,ALARM,LT103-L: condición retornó a normal
+2026-11-06T11:36:41,estudiante,ALARM,LT104-L: condición retornó a normal
+2026-11-06T14:53:50,estudiante,SYS,Cierre de sesión

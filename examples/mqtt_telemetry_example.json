@@ -1,0 +1,7 @@
+{
+  "levels": [52.0, 46.0, 39.0, 34.0],
+  "temperatures": [24.5, 25.0, 24.0, 24.8],
+  "flows": [0.8, 0.7, 0.4, 0.35],
+  "pumps": [true, true],
+  "valves": [true, true, true, true]
+}
